@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px; /* or any other size */
+  margin: 16px;
+  border-radius: 5px; /* optional, for rounded corners */
+  display: inline-block; /* for side-by-side card layout */
+}
+
+.card h2,
+.card p {
+  margin: 16px;
+}
